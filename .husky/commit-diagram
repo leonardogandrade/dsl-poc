@@ -1,7 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-../../node_modules/.bin/mmdc -i docs/sequence-diagram.mmd -o docs/sequence-diagram.svg
+../node_modules/.bin/mmdc -i docs/sequence-diagram.mmd -o docs/sequence-diagram.svg
 
 
 # #!/bin/sh
